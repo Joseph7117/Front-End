@@ -1,0 +1,62 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	background: #CCC;
+}
+/*Navigation Bar CSS*/
+
+.navigation-bar ul{
+	list-style-type: none;
+	background-color: #444;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+.nav-bar li{
+	font-family: 'Oswald';
+	font-size: 1.2em;
+	line-height: 40px;
+	height: 50px;
+	border-bottom: 1px solid #888;
+	display: inline-block;
+	float: left;
+	padding-right: 40px;
+	margin-left: 30px;
+}
+.nav-bar li a{
+	text-decoration: none;
+	color:#fff;
+	padding-left:10px;
+}
+.nav-bar li:hover {
+	background-color: #005f5f;
+	transition: .3s background-color;
+}
+.nav-bar li a.active{
+	background-color: #fff;
+	color: #444;
+}
+
+/*Main Content CSS*/
+.main-content{
+	width: 60%;
+	margin-top: 30px;
+	margin-left: 20%;
+	text-align: center;
+	font-family: Open Sans;
+	font-size: 1.4em;
+	line-height: 50px;
+}
+
+/*Footer*/
+#footer{
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	width: 100%;
+	background: #999;
+	text-align: center;
+	margin: 0 auto;
+}
